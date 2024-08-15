@@ -18,5 +18,8 @@ index = alphabet.find(text[0].lower())
 shifted = alphabet[index+shift]
 #print(shifted)
 #print(shift)
-for char in text:
-    print(char)
+text = 'Albatross'
+for char in text.lower():    
+    index = alphabet.find(char)
+    print(char, index)
+    new_index = index + shift
