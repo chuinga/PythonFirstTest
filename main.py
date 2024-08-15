@@ -11,3 +11,7 @@ print(shift)
 print(type(shift))
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 print(alphabet.find('z'))
+index = alphabet.find(text[0])
+index = alphabet.find(text[0].lower())
+print(index)
+print(text.lower())
