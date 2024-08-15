@@ -8,3 +8,6 @@ print(len(text))
 print(type(text))
 shift = 3
 print(shift)
+print(type(shift))
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+print(alphabet.find('z'))
