@@ -1,4 +1,4 @@
-number = 5
+#number = 5
 text = 'Hello World'
 #print(number)
 #print(text)
@@ -11,15 +11,17 @@ shift = 3
 #print(type(shift))
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 #print(alphabet.find('z'))
-index = alphabet.find(text[0])
-index = alphabet.find(text[0].lower())
+#index = alphabet.find(text[0])
+#index = alphabet.find(text[0].lower())
 #print(index)
 #print(text.lower())
-shifted = alphabet[index+shift]
+#shifted = alphabet[index+shift]
 #print(shifted)
 #print(shift)
-text = 'Albatross'
+#text = 'Albatross'
+encrypted_text = ''
 for char in text.lower():    
     index = alphabet.find(char)
-    print(char, index)
     new_index = index + shift
+    encrypted_text += alphabet[new_index]
+    print('Old Char:', char, 'Encrypted text:', encrypted_text)
